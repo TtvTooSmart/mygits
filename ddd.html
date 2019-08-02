@@ -1,0 +1,142 @@
+<html lang="en" dir"ltr">
+   <head>
+     <meta charset="utf-8">
+      <title></title>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+       <link rel="stylesheet" href="style1.css">
+       <div id="bg"></div>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+       <link rel="stylesheet" href="D:\fontawesome-free-5.10.0-web\css\all.css">
+       <script src="https://kit.fontawesome.com/3c02994804.js"></script>
+   </head>
+   <body>
+
+     <script>
+     var config = {
+       "particles": {
+         "number": {
+           "value": 300,
+           "density": {
+             "enable": true,
+             "value_area": 800
+           }
+         },
+         "color": {
+           "value": ["#6ECDDD", "#36BB93", "#7D43AE", "#E31565", "#EBA91F", "#68f63f"]
+         },
+         "shape": {
+           "type": "circle",
+           "stroke": {
+             "width": 0,
+             "color": "#111820"
+           }
+         },
+         "opacity": {
+           "value": .5,
+           "random": false,
+           "anim": {
+             "enable": false,
+             "speed": .1,
+             "opacity_min": 0,
+             "sync": false
+           }
+         },
+         "size": {
+           "value": 5,
+           "random": true
+         },
+         "line_linked": {
+           "enable": false
+         },
+         "move": {
+           "enable": true,
+           "speed": .9,
+           "direction": "none",
+           "random": true,
+           "straight": false,
+           "out_mode": "in",
+           "attract": {
+             "enable": true,
+             "rotateX": 600,
+             "rotateY": 1200
+           }
+         }
+       },
+       "interactivity": {
+         "detect_on": "canvas",
+         "events": {
+           "onhover": {
+             "enable": false,
+             "mode": "repulse"
+           },
+           "onclick": {
+             "enable": true,
+             "mode": "push"
+           },
+           "resize": true
+         },
+         "modes": {
+           "push": {
+             "particles_nb": 5
+           }
+         }
+       },
+       "retina_detect": true
+     };
+
+
+     particlesJS('bg', config);
+
+     </script>
+
+  </div>
+   <form class="box" action="ddd.html" method="POST">
+     <h1>login</h1>
+     <input type="text" name="" placeholder="username">
+     <input type="password" name="" placeholder="password">
+     <input type="submit" name="" value="login">
+    </form>
+
+     <div class="search-box">
+       <input class="search-txt" type="text" name="" placeholder="type to search">
+       <a class="search-btn" href="#">
+
+         <i class="fas fa-search"></i>
+
+       </a>
+     </div>
+
+
+     <div class="page">
+   <span class="menu_toggle">
+     <i class="menu_open fa fa-bars fa-lg"></i>
+     <i class="menu_close fa fa-times fa-lg"></i>
+   </span>
+   <ul class="menu_items">
+     <li><a href="#"><i class="icon fa fa-home fa-2x"></i> Moar</a></li>
+     <li><a href="#"><i class="icon fa fa-phone fa-2x"></i> Coffee</a></li>
+     <li><a href="#"><i class="icon fa fa-heart fa-2x"></i> Please</a></li>
+   </ul>
+   <main class="content">
+     <div class="content_inner">
+
+     </div>
+ </div>
+ <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+ <script>
+     // elements
+ var $page = $('.page');
+
+ $('.menu_toggle').on('click', function(){
+   $page.toggleClass('shazam');
+ });
+ $('.content').on('click', function(){
+   $page.removeClass('shazam');
+ });
+
+ </script>
+
+
+</body>
+   </html>
